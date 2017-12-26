@@ -1,0 +1,19 @@
+function howManyhundreds(number) {
+  var divByTen = number/10;
+
+  if divbyTen <0 {
+    output = Math.floor(Mathabs(divbyTen));
+     } else {
+        Math.floor(divbyTen)
+
+     }
+     return output
+  }
+
+
+
+console.log(howManyHundreds(1000), "=?", 10);
+console.log(howManyHundreds(894), "=?", 8);
+console.log(howManyHundreds(520), "=?", 5);
+console.log(howManyHundreds(99), "=?", 0);
+console.log(howManyHundreds(0), "=?", 0);
