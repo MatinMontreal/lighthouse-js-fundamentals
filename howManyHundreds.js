@@ -8,7 +8,7 @@ function howManyHundreds(number) {
 
   }
   return output;
-}
+  }
 
 
 
